@@ -1,0 +1,6 @@
+dataset,timestamp,status,n_rows,message
+charging_stations,2026-11-17 17:55:16,success,323,NA
+charging_stations_freshness,2026-11-17 17:55:16,success,1,NA
+generation_tech,2026-11-17 17:55:17,success,414,NA
+end_use,2026-11-17 17:55:20,success,1794,NA
+energy_modified,2026-11-17 17:55:20,success,1,NA
