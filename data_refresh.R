@@ -23,7 +23,7 @@ library(lubridate)
 library(sf)
 library(geojsonsf)
 library(rvest)
-source(".Renviron")
+# source(".Renviron")
 
 source("R/data_helpers.R")
 
