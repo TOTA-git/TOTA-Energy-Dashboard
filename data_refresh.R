@@ -23,7 +23,6 @@ library(lubridate)
 library(sf)
 library(geojsonsf)
 library(rvest)
-library(chromote)
 source(".Renviron")
 
 source("R/data_helpers.R")
