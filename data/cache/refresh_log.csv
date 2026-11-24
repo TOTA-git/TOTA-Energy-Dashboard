@@ -1,6 +1,6 @@
 dataset,timestamp,status,n_rows,message
-charging_stations,2026-11-22 22:51:14,failure,NA,object 'APIKEY' not found
-charging_stations_freshness,2026-11-22 22:51:14,success,1,NA
-generation_tech,2026-11-22 22:51:16,success,414,NA
-end_use,2026-11-22 22:51:18,success,1794,NA
-energy_modified,2026-11-22 22:51:18,success,1,NA
+charging_stations,2026-11-24 03:30:54,failure,NA,object 'APIKEY' not found
+charging_stations_freshness,2026-11-24 03:30:55,success,1,NA
+generation_tech,2026-11-24 03:30:57,success,414,NA
+end_use,2026-11-24 03:30:59,success,1794,NA
+energy_modified,2026-11-24 03:30:59,success,1,NA
