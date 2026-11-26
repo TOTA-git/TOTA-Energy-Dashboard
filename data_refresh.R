@@ -54,7 +54,7 @@ refresh_dataset(
   function() {
     # APIKEY <- Sys.getenv("APIKEY")
     url <- paste0(
-      "https://developer.nlr.gov/api/alt-fuel-stations/v1.geojson?api_key=", APIKEY, "&fuel_type=ELEC&state=BC&country=CA"
+      "https://developer.nlr.gov/api/alt-fuel-stations/v1.geojson?api_key=", Sys.getenv("APIKEY"), "&fuel_type=ELEC&state=BC&country=CA"
     )
     
     charging_stations <- st_read(url, quiet = TRUE)
