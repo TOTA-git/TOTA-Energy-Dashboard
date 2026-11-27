@@ -323,6 +323,19 @@ ui <- dashboardPage(
             plotOutput("ChargingTypePlot", height = 500)
           ),
           
+          infoBox(
+            title = "",
+            width = 12,
+            color = "light-blue",
+            icon = icon("info"),
+            subtitle = "This dataset was selected for this indicator because it provides a standardized, 
+            government-maintained inventory of EV charging infrastructure across Canada. Its station-level data allows charging 
+            infrastructure to be analyzed by location, charging type, and year, supporting consistent comparisons of infrastructure 
+            availability and growth across British Columbia and the Thompson-Okanagan region. Using a national dataset also provides 
+            a reliable and reproducible source for monitoring transportation infrastructure development over time, making it well 
+            suited for regional sustainability monitoring"
+          ),
+          
           box(
             title = "References",
             solidHeader = TRUE,
